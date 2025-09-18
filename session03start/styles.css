@@ -1,0 +1,136 @@
+body {
+    background-color: #d29798;
+    color: #000;
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+    margin:0;
+    padding:0;
+    animation: fadeIn 1.5s ease;
+}
+
+header h1 {
+    font-size: 70px;
+    color: #000;
+    margin:0;
+    padding:0;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+header h1:hover {
+    color: #aa393b;
+    transform: scale(1.1); /* 放大 10% */
+}
+
+header h2 {
+    font-size: 30px;
+    color: #000;
+    margin:0;
+    padding:0;
+}   
+
+/* grouping selectors */
+h1, h2, h3, h4, h5, h6, p ul,li,blockquote{
+       margin:0; 
+}
+
+header {
+  background: linear-gradient(180deg, #b45253, #d29798);
+  text-align: center;
+  padding: 30px;
+}
+
+/* descendant selector */
+nav a {
+    color: #000;
+    text-decoration: none;
+
+    /* shorthand for margin top/bottom and margin left/right */
+    margin: 0px 15px;
+    letter-spacing: 3px;
+
+}   
+
+/* pseudo class selector */
+nav a:hover {
+    color: #b45253;
+  text-decoration: underline;
+}
+
+nav {
+    background-color: #929489;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+
+main {
+    background-color: #d9d6cc;
+    padding:60px
+}
+
+main h3 {
+    font-size: 25px;
+}
+
+footer {
+    background-color: #867468;
+}
+
+p {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px
+}
+
+footer a {
+  font-size: 18px;
+  color: #444;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+footer h3{
+    font-size: 30px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+footer a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: #b45253;
+  transition: width 0.3s ease;
+}
+
+footer a:hover::after {
+  width: 100%;   
+}
+
+@keyframes pulse {
+  0%, 100% { font-size: 18px; }
+  50% { font-size: 22px; }
+}
+
+footer a:hover {
+    color:#b45253;
+  animation: pulse 0.5s ease-in-out;
+}
+
+img {
+    border-radius: 15px;         
+    border: 3px solid #b45253;   
+}
+
+img:hover {
+    transform: scale(1.15);       
+}
