@@ -1,0 +1,175 @@
+body {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* id rule uses hashtag # */
+#wrapper {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #f7e7ad;
+    padding: 30px 50px;
+}
+
+
+
+.wow {
+    color: #f00;
+    font-weight: 800;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 40px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+main table {
+    border: 10px solid #54361A;
+    width: 100%;
+    margin: 20px 5px;
+
+}
+
+main table th {
+    border: 10px solid #EBDFC0;
+    background-color: #ABB9A6;
+}
+
+main table td {
+    border: 5px solid #b49976;
+    padding: 10px;
+    text-align: center;
+}
+
+
+header h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+header h2 {
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body nav ul li a {
+    padding: 30px 30px;
+    color: #9a1919;
+    text-decoration: underline;
+}
+
+#main-background {
+    background-image: url("images/08.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+#types-background {
+    background-image: url("images/09.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+#featured-background {
+    background-image: url("images/10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+footer h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+footer ul li a {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.highlight {
+    color: #008000;
+    background-color: #ffff99;
+    font-weight: bold;
+}
+
+.featured-highlight {
+    font-style: italic;
+    font-size: 28px;
+}
+
+.note {
+    color: #8dc74f;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 28px;
+}
+
+.mushroom-table {
+    width: 100%;
+    margin: 30px 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.mushroom-table th {
+    font-size: 20px;
+    padding: 10px;
+    color: #4a2c1a;
+    /* 标题颜色，可调整 */
+    border-bottom: 2px solid #8c5a2c;
+    font-style: normal;
+}
+
+.mushroom-table td {
+    padding: 15px;
+    vertical-align: top;
+    /* 图片和文字顶对齐 */
+}
+
+.mushroom-img {
+    width: 150px;
+    /* 控制图片大小 */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    /* 居中显示，文字与图片间距 */
+}
+
+.mushroom-name {
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+}
+
+main h2 {
+    font-size: 40px;
+}
