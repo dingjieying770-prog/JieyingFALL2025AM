@@ -1,0 +1,479 @@
+html {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  padding: 10px;
+  margin: 5px;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: grid;
+  background: #17a2f835;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 10px 30px #0000001a;
+  border-radius: 12px;
+}
+
+.container header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  grid-column: 1/13;
+  grid-row: 1/2;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  text-shadow: 2px 2px 4px #0000004d;
+  border-radius: 12px;
+}
+
+.container main {
+  background: #ffffff;
+  color: #333333;
+  grid-column: 1/9;
+  grid-row: 3/9;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+
+.container main h2 {
+  font-size: 28px;
+  color: #667eea;
+  margin-bottom: 20px;
+  border-left: 4px solid #764ba2;
+  padding-left: 15px;
+}
+
+.container main p {
+  font-size: 18px;
+  line-height: 2.3;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.container nav {
+  background: #764ba2a2;
+  color: #ffffff;
+  grid-column: 1/9;
+  padding: 16px 0;
+  text-align: center;
+  border-radius: 12px;
+  margin: 0 0 16px;
+}
+
+.container nav a {
+  margin: 0 40px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+
+.container nav a:hover {
+  transform: translateY(-2px);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container aside {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  color: white;
+  grid-column: 9/13;
+  grid-row: 2/9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.container aside h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 4px #00000033;
+}
+
+.container footer {
+  background: #000000a2;
+  color: white;
+  grid-column: 1/13;
+  grid-row: 10/11;
+  padding: 25px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.container aside img {
+  max-width: 100%;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.container aside img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+/*las vegas page*/
+
+.page-las-vegas .container {
+  background: #d50e0e;
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  margin: 20px auto;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.page-las-vegas header {
+  background-image: url(images/images-header.jpg);
+  background-position: center;
+  color: #c91212;
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 3px 6px #0000004d;
+}
+
+
+.page-las-vegas nav {
+  background: #f7f72fcd;
+  color: rgb(1, 0, 10);
+  grid-column: 1/13;
+  grid-row: 2/3;
+  border-radius: 12px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.page-las-vegas nav a {
+  color: white;
+  margin: 0px 10px;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.page-las-vegas nav a:hover {
+  background: rgba(193, 55, 55, 0.2);
+}
+
+.page-las-vegas aside {
+  background: #f7f72fcd;
+  color: rgb(255, 255, 255);
+  grid-column: 9/13;
+  grid-row: 3/9;
+  border-radius: 12px;
+}
+
+.page-las-vegas aside img {
+  border-radius: 12px;
+  margin-bottom: 120px;
+}
+
+
+.page-las-vegas .container footer {
+  border-radius: 15px;
+}
+
+.page-las-vegas main h2 {
+  color: #421007;
+}
+
+.page-las-vegas main p {
+  color: #4b4b4b;
+  margin-bottom: 100px;
+}
+
+.page-las-vegas aside h2 {
+  color: #421007;
+  margin-top: 10px;
+}
+
+
+
+
+
+/*los angeles page*/
+.page-los-angeles .container {
+  background: rgba(152, 210, 231, 0.853);
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  margin: 20px auto;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.page-los-angeles header {
+  background-image: url(images/images-header2.jpg);
+  background-position: center;
+  color: #000003;
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.page-los-angeles nav {
+  background: #1772d4ce;
+  color: rgb(39, 29, 221);
+  grid-column: 1/13;
+  grid-row: 2/3;
+  border-radius: 12px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.page-los-angeles nav a {
+  color: white;
+  margin: 0px 10px;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.page-los-angeles nav a:hover {
+  background: #c1373733;
+}
+
+.page-los-angeles aside {
+  background: #1772d4ce;
+  color: rgb(255, 255, 255);
+  grid-column: 9/13;
+  grid-row: 3/9;
+  border-radius: 12px;
+}
+
+.page-los-angeles .container footer {
+  border-radius: 15px;
+}
+
+.page-los-angeles main h2 {
+  color: #1772d4ce;
+}
+
+.page-los-angeles main p {
+  color: #4b4b4b;
+  margin-bottom: 120px;
+}
+
+.page-los-angeles aside h2 {
+  color: #000003;
+  margin-top: 10px;
+}
+
+.page-los-angeles aside img {
+  border-radius: 12px;
+  margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+.page-arizona-utah .container {
+  background: rgb(203, 106, 21);
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  margin: 20px auto;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.page-arizona-utah header {
+  background-image: url(images/images-header3.jpg);
+  background-position: center;
+  color: #9c1b1b;
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.page-arizona-utah nav {
+  background: #f7b733;
+  color: rgb(39, 29, 221);
+  grid-column: 1/13;
+  grid-row: 2/3;
+  border-radius: 12px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.page-arizona-utah nav a {
+  color: white;
+  margin: 0px 10px;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.page-arizona-utah nav a:hover {
+  background: rgba(193, 55, 55, 0.2);
+}
+
+.page-arizona-utah aside {
+  background: #f7b733;
+  color: rgb(255, 255, 255);
+  grid-column: 9/13;
+  grid-row: 3/9;
+  border-radius: 12px;
+}
+
+.page-arizona-utah .container footer {
+  border-radius: 15px;
+}
+
+.page-arizona-utah main h2 {
+  color: #d63447;
+}
+
+.page-arizona-utah main p {
+  color: #4b4b4b;
+  margin-bottom: 120px;
+}
+
+.page-arizona-utah aside h2 {
+  color: #9c1b1b;
+  margin-top: 10px;
+}
+
+.page-arizona-utah aside img {
+  border-radius: 12px;
+  margin-bottom: 200px;
+}
+
+
+
+
+
+
+header h1, h2, main h1
+{
+   font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main p{
+   font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+
+nav a {
+   font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
+
+
+
+/*anamation*/
+.animation1{
+    width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  filter: drop-shadow(2px 0px 10px #ff2342);
+  animation: rotate_1 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes rotate_1 {
+  0% {
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.animation2{
+    width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  filter: drop-shadow(2px 0px 10px #091b75);
+  animation: rotate_1 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes rotate_1 {
+  0% {
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.animation3{
+    width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  filter: drop-shadow(2px 0px 10px #ab4506);
+  animation: rotate_1 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes rotate_1 {
+  0% {
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+header h1, nav a {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
