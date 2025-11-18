@@ -1,0 +1,83 @@
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+	color: #3a241d;
+	text-align: center;
+}
+
+#left-container {
+	left: 0px;
+}
+
+#right-container {
+	right: 0px;
+}
+
+.container {
+	background-color: #436440;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.flower-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.flower {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.pot-walls {
+    height: 50%;
+    width: 65%;
+    background: #a4703a;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 10%;
+    left: 17%;
+    opacity: 1;
+    border: 8px solid #7a552b;
+}
+
+.pot-top {
+    width: 75%;
+    height: 6%;
+    background: #8b6232;
+    position: absolute;
+    bottom: 60%;
+    left: 12%;
+    border-radius: 0.5rem;
+    border: 6px solid #624423;
+}
+
+.pot-bottom {
+    width: 75%;
+    height: 5%;
+    background: #8b6232;
+    position: absolute;
+    bottom: 5%;
+    left: 12%;
+    border-radius: 0.5rem;
+    border: 6px solid #624423;
+}
+
+.dirt {
+    width: 63%;
+    height: 8%;
+    background: linear-gradient(180deg, #5b3a20, #3e2414);
+    position: absolute;
+    bottom: 13%;
+    left: 18%;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
